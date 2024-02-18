@@ -1,0 +1,130 @@
+.question-detail {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .question-detail .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-detail .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .question-detail .header input[type="search"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .question-detail .header button {
+    padding: 10px 15px;
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .question-detail .header button:hover {
+    background-color: #555;
+  }
+  
+  .question-content h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .question-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .question-content .tags {
+    margin-top: 10px;
+  }
+  
+  .question-content .tags .tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background: #eee;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .answers-list {
+    margin-top: 30px;
+  }
+  
+  .answers-list .answer {
+    padding: 15px;
+    border-top: 1px solid #eee;
+  }
+  
+  .answers-list .answer:first-child {
+    border-top: none;
+  }
+  
+  .answers-list .answer .content {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .answers-list .answer .vote-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .answers-list .answer .vote-controls button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .answers-list .answer .vote-controls button:hover {
+    background-color: #555;
+  }
+  
+  .new-answer {
+    margin-top: 40px;
+  }
+  
+  .new-answer textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .new-answer button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .new-answer button:hover {
+    background-color: #555;
+  }
+  
